@@ -1,5 +1,5 @@
 # Local-AI-Agent-Demo
-Command prompt codes in order, one-by-one
+Terminal codes in order, one-by-one
 -------------------------
 cd Local-AI-Agent-Demo
 python -m venv venv
