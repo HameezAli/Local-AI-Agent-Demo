@@ -3,7 +3,6 @@ from langchain_chroma import Chroma
 from langchain_core.documents import Document
 import os
 import pandas as pd
-
 df=pd.read_csv("realistic_restaurant_reviews.csv")
 embeddings=OllamaEmbeddings(model="mxbai-embed-large")
 db_location="./chrome_langchain_db"
@@ -29,5 +28,4 @@ if add_documents:
 retriever=vector_store.as_retriever(
     search_kwargs={"k":5}
 )  
-    
  
